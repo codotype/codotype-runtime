@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/codotype/codotype-runtime/issues"
   },
-  "homepage": "https://github.com/codotype/codotype-runtime#readme"
+  "homepage": "https://github.com/codotype/codotype-runtime#readme",
+  "dependencies": {
+    "@codotype/util": "^0.1.0"
+  }
 }
