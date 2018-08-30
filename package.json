@@ -1,5 +1,5 @@
 {
-  "name": "codotype-runtime",
+  "name": "@codotype/runtime",
   "version": "0.1.0",
   "description": "Runtime environment that registers and runs Codotype generators",
   "main": "index.js",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/codotype/codotype-runtime#readme",
   "dependencies": {
     "@codotype/util": "^0.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
