@@ -1,0 +1,19 @@
+{
+  "name": "codotype-runtime",
+  "version": "0.1.0",
+  "description": "Runtime environment that registers and runs Codotype generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codotype/codotype-runtime.git"
+  },
+  "author": "Alexander Schwartzberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codotype/codotype-runtime/issues"
+  },
+  "homepage": "https://github.com/codotype/codotype-runtime#readme"
+}
