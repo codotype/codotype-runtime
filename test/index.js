@@ -6,7 +6,7 @@ const LibraryExampleApp = require('@codotype/generator/examples/library.json')
 // Test runtime.registerGenerator('...')
 const runtime = new CodotypeRuntime()
 runtime.registerGenerator('codotype-generator-nuxt')
-console.log(runtime.getGenerators())
+// console.log(runtime.getGenerators())
 
 // Test runtime.execute({ build })
 const build = {
@@ -16,5 +16,9 @@ const build = {
     configuration: {}
   }]
 }
+
 runtime.execute({ build })
+.then(() => {
+  console.log('FINISHED BUILD')
+})
 
