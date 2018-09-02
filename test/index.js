@@ -16,5 +16,9 @@ const build = {
     configuration: {}
   }]
 }
+
 runtime.execute({ build })
+.then(() => {
+  console.log('FINISHED BUILD')
+})
 
