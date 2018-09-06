@@ -4,8 +4,9 @@ const LibraryExampleApp = require('@codotype/generator/examples/library.json')
 // // // //
 
 // Test runtime.registerGenerator('...')
+// TODO - this test file should implement a local dummy generator to test registration
 const runtime = new CodotypeRuntime()
-runtime.registerGenerator('codotype-generator-nuxt')
+runtime.registerGenerator({ module_path: 'codotype-generator-nuxt' })
 // console.log(runtime.getGenerators())
 
 // Test runtime.execute({ build })
