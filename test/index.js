@@ -1,5 +1,5 @@
 const CodotypeRuntime = require('../index.js');
-const LibraryExampleApp = require('@codotype/generator/examples/library.json')
+const LibraryExampleApp = require('@codotype/blueprints/lib/library.json')
 
 // // // //
 
@@ -22,4 +22,3 @@ runtime.execute({ build })
 .then(() => {
   console.log('FINISHED BUILD')
 })
-

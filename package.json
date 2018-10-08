@@ -20,10 +20,10 @@
     "@codotype/util": "^0.1.0",
     "bluebird": "^3.5.1"
   },
+  "devDependencies": {
+    "@codotype/blueprints": "^0.1.0"
+  },
   "directories": {
     "lib": "lib"
-  },
-  "devDependencies": {
-    "@codotype/generator": "^0.1.1"
   }
 }
